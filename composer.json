@@ -1,0 +1,16 @@
+{
+  "type": "project",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "staspiv/sw-core",
+  "description": "",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SmartWallet\\Core\\": "src/"
+    }
+  }
+}
