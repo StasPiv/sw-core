@@ -8,5 +8,5 @@ use SmartWallet\Core\Resource\ResourceOperationInterface;
 
 interface ReadResourceInterface extends ResourceOperationInterface
 {
-    public function readResource(string $userId): array;
+    public function readResource(string $userId, string $resourceId): array;
 }
