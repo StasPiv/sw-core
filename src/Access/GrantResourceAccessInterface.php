@@ -9,4 +9,6 @@ use SmartWallet\Core\Resource\ResourceOperationInterface;
 interface GrantResourceAccessInterface extends ResourceOperationInterface
 {
     public function grantAccessToResource(string $userId, string $resourceId, string $userForAccessId, string $accessType = 'owner',): bool;
+
+    public function grantAccessToResourceType(string $userId, string $resourceId, string $accessType = 'owner',): bool;
 }
